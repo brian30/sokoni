@@ -1,2 +1,18 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, 'Home') %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sokoni | <%= yield(:title) %></title>
+</head>
+<body>
+	<h1>Home</h1> 
+	
+	<h2>Mission</h2>
+	<p>
+	To make it easy for buyers and sellers to do business anywhere.
+	</p>
+<p>
+	We operate leading online and mobile marketplaces in retail and wholesale trade, as well as cloud computing and other services. We provide technology and services to enable consumers, merchants, and other participants to conduct commerce in our ecosystem.
+</p>
+</body>
+</html>

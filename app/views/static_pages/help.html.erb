@@ -1,2 +1,14 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, 'Help') %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sokoni | <%=yield(:title) %></title>
+</head>
+<body>
+	<h1>Help</h1>
+		<p>Get help on Sokoni at the <a href="http://sokoni.com/help">Sokoni's help page</a>
+		To get help on Sokoni, see the 
+		<a href="http://sokoni.com/help">Sokoni's help</a>
+		</p>
+</body>
+</html>
